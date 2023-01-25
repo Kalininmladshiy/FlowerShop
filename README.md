@@ -26,7 +26,7 @@ touch .env
 * `from django.core.management.utils import get_random_secret_key`
 * `print(get_random_secret_key())`
     
-Копируем строку в `.env` файл: `DJANGO_KEY='ваш ключ'` 
+Копируем строку в `.env` файл: `SECRET_KEY='ваш ключ'` 
 
 Так же в проекте используются следующие переменные окружения:  
 `DEBUG`.  Вкючение/выключение режима отладки. Значение False - выключение режима отладки. Значение True - включение режима отладки.  
